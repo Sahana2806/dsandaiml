@@ -1,0 +1,13 @@
+s={1,2,3,4}
+print(s)
+s.add(5)
+print(s)
+s.update([3,4,5,6])
+print(s)
+s.remove(3)
+print(s)
+s.discard(5)
+print(s)
+x=s.pop()
+print("removed:",x)
+print("remaining:",s)
